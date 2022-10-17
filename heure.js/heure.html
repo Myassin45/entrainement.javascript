@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>heure/js</title>
+</head>
+<body>
+    <div class="container bg-primary">
+        <div class="row">
+            <div class="col-sm-6 mx-auto mt-5 text-center">
+                <div class="mb-6">
+                    <label for="valeur-heure" class="form-label">saisir heure:</label>
+                    <input type="number" class="form control" id="valeur-heure" aria-describedby="valeur-heure">
+                    
+                    <label for="valeur-minute" class="form-label">saisir minute:</label>
+                    <input type="number" class="form control" id="valeur-minute" aria-describedby="valeur-minute">
+
+                    <label for="valeur-seconde" class="form-label">saisir secondes:</label>
+                    <input type="number" class="form control" id="valeur-seconde" aria-describedby="valeur-seconde">
+
+
+                    <div class="IDformText">Dans une seconde il sera...</div>
+   
+            
+                
+
+                </div>
+                
+                <button type="submit" id="bouton" onclick="afficherHeure()" class="btn btn-primary mt-5 border border-3">valider</button> 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 mx-auto mt-5 text-center">
+                <div id="message"></div>
+            </div>
+        </div>
+      
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+<script src="heure.js"></script>  
+</body>
+</html>
